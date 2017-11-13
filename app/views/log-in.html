@@ -7,21 +7,17 @@
     <script src="../js/common.js"></script>
 </head>
 <body>
-<div class="log-in-header"></div>
+<div class="log-in-header">您好，欢迎使用畅捷客服系统</div>
 <div class="log-in-main">
-    <div class="log-in-username">
-        <span class="log-in-main-text">用户名:</span>
-        <span>
-            <input class="log-in-input" placeholder="用户名">
-        </span>
+    <div class="log-in-input-container">
+        <input id="log-in-input-user" placeholder="用户名">
     </div>
-    <div class="log-in-pwd">
-        <span class="log-in-main-text">密码:</span>
-        <span>
-            <input type="password" class="log-in-input" placeholder="密码">
-        </span>
+    <div class="log-in-input-container">
+        <input id="log-in-input-pwd" type="password" placeholder="密码">
     </div>
 </div>
-<input type="button" id="log-in-submit">登录
+<div class="log-in-submit-container">
+    <input id="log-in-submit" type="button" value="登录">
+</div>
 </body>
 </html>
