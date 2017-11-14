@@ -5,9 +5,14 @@
     <title>畅捷客服系统登录</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css">
     <script src="../js/common.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
-<div class="log-in-header">您好，欢迎使用畅捷客服系统</div>
+<div class="log-in-header">
+    <h1>您好，欢迎使用畅捷客服系统</h1>
+    <h2>请先登录</h2>
+    <h2>内部系统，登录信息请勿外泄</h2>
+</div>
 <div class="log-in-main">
     <div class="log-in-input-container">
         <input id="log-in-input-user" placeholder="用户名">
@@ -17,7 +22,7 @@
     </div>
 </div>
 <div class="log-in-submit-container">
-    <input id="log-in-submit" type="button" value="登录">
+    <input id="log-in-submit" type="button" value="登录" onclick="logInSubmit()">
 </div>
 </body>
 </html>
