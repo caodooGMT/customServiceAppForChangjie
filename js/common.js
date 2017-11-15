@@ -7,13 +7,6 @@ $(document).ready(function () {
     });
 });
 
-function changeFooterActive(e, target) {
-    e.preventDefault();
-    $('.footer-nav-ul li').removeClass('custom-nav-active');
-    $(target).closest('li').addClass('custom-nav-active');
-}
-
-
 function backToPrevious() {
     window.history.go(-1);
     return false;
