@@ -1,3 +1,7 @@
+html {
+    min-width: 1000px;
+}
+
 .log-in-header {
     width: 100%;
     margin-top: 20px;
@@ -51,6 +55,7 @@
     border-top: solid 1px #d8d2d3;
     background: #ffffff;
     z-index: 999;
+    min-width: 720px;
 }
 
 .footer-nav-li {
@@ -59,11 +64,6 @@
     height: 100%;
     font-size: 1.5rem;
     line-height: 4rem;
-}
-
-.footer-nav-li a {
-    text-decoration: none;
-    color: #000000;
 }
 
 .footer-nav-ul {
@@ -79,7 +79,100 @@
 }
 
 .foot-sit {
-    height: 6rem;
+    height: 60px;
     display: block;
     width: 100%;
+}
+
+#custom-affairs-by-current-user {
+    width: 100%;
+}
+
+.record-list-title-short {
+    width: 8%;
+    float: left;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+
+.record-list-title-long {
+    width: 28%;
+    float: left;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+
+.record-list-detail-short {
+    width: 8%;
+    float: left;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+
+.record-list-detail-long {
+    width: 28%;
+    float: left;
+    text-align: left;
+    height: 36px;
+    overflow: auto;
+    line-height: 36px;
+}
+
+#main-content {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+}
+
+#header {
+    min-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.header-function-container {
+    min-width: 1000px;
+    width: 100%;
+}
+
+.header-top-line {
+    width: 100%;
+}
+
+.header-top-line-left {
+    width: 48%;
+    font-size: 24px;
+    text-align: left;
+    display: inline-block;
+}
+
+.header-top-line-right {
+    font-size: 24px;
+    width: 48%;
+    text-align: right;
+    display: inline-block;
+}
+
+.header-bottom-line {
+    width: 100%;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.header-function-button {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+#header-current-scan-period {
+    height: 24px;
+    background-color: white;
 }
